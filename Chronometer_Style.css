@@ -1,0 +1,78 @@
+.silver {
+  font-weight: 300;
+  text-align: center;
+  color: solid white;
+}
+
+body {
+  background-color: #31394c;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 50;
+  text-align: center;
+  line-height: 59px;
+  padding: 0;
+  margin: 0;
+}
+
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+}
+
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 5;
+  border: none;
+  margin: 00;
+  outline: none; 
+  border-radius: 10%;
+  
+}
+
+
+.square {
+  background:  transparent;
+  text-align: center;
+  width: 300px;
+  height: 160px;
+  outline: 3px solid white;
+  border-radius: 20px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.buttonPlay {
+  /* to black */
+  filter: invert(1); 
+}
+
+.buttonReset {
+  /* to black */
+  filter: invert(1);
+}
+
+.controls{
+  justify-content: space-between;
+  transform: scale(2.5);
+  padding-top: 5px;
+  
+}
+
+#play {
+  display: block;
+}
+
+#pause {
+  display: none;
+}

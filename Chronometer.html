@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+
+    <title>Stop Watch</title>
+
+    <meta name="Description" content="First practical project in integrating JS and HTML files.">
+    <meta name="author" content="Flavio Dias">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Setting viewport to adjust application to all kinds of devices--> 
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="Chronometer_Style.css">
+
+</head>
+
+<body>
+
+    <div class="chronometer">
+        
+        <div class="square">
+            <h1>
+                <span class="silver">CHRONOMETER</span>
+            </h1>
+
+            <span class="time" id="display">00:00:00</span>
+
+            <div class="controls" >
+            
+                <button class="buttonPlay">
+                    <img id="playButton" src="play-circle.svg" />
+                    <img id="pauseButton" src="pause-circle.svg"/>
+                </button>
+        
+                <button class="buttonReset">
+                    <img id="resetButton" src="stop-circle.svg"/>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="Chronometer.js"></script> <!-- Source to Script--> 
+</body>
+</html>
